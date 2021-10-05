@@ -1,1 +1,133 @@
+body {
+  background: linear-gradient(to right, #6b8e23 60%, #e1eec3);
+}
+.max {
+  width: 1220px;
+  height: 600px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 2px;
+}
+.gambar1 {
+  width: 400px;
+  height: 600px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-right: 4px solid #6b8e23;
+  background-color: white;
+  float: left;
+}
+.gambar1 img {
+  margin-top: 10px;
+  margin-left: 25%;
+}
+.gambar1 H1 {
+  color: darkgray;
+  font-size: 25px;
+  text-align: center;
+}
+.gambar1 H2 {
+  text-align: center;
+  font-size: 20px;
+  color: #6b8e23;
+}
+.gambar1 h3 {
+  color: #6b8e23;
+  font-size: 30px;
+  font-family: fantasy;
+  text-align: center;
+}
+.gambar2 {
+  width: 400px;
+  height: 600px;
+  background-color: white;
+  border-right: 4px solid #6b8e23;
+  float: left;
+}
+.gambar2 img {
+  margin-top: 10px;
+  margin-left: 20%;
+}
+.gambar2 H1 {
+  color: darkgray;
+  font-size: 25px;
+  text-align: center;
+}
+.gambar2 H2 {
+  text-align: center;
+  font-size: 20px;
+  color: #6b8e23;
+}
+.gambar2 h3 {
+  color: #6b8e23;
+  font-size: 30px;
+  font-family: fantasy;
+  text-align: center;
+}
+.gambar3 {
+  width: 400px;
+  height: 600px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: white;
+  float: left;
+}
+.gambar3 img {
+  margin-top: 10px;
+  margin-left: 20%;
+}
+.gambar3 H1 {
+  color: darkgray;
+  font-size: 25px;
+  text-align: center;
+}
+.gambar3 H2 {
+  text-align: center;
+  font-size: 20px;
+  color: #2e4206;
+}
+.gambar3 h3 {
+  color: #28360c;
+  font-size: 30px;
+  font-family: fantasy;
+  text-align: center;
+}
 
+.link {
+  width: 200px;
+  height: 50px;
+  position: relative;
+}
+a {
+  width: 200px;
+  height: 50px;
+  display: block;
+  border: 2px solid #6b8e23;
+  text-decoration: none;
+  color: #6b8e23;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  margin-left: 50%;
+  border-radius: 20px;
+  font-family: fantasy;
+}
+.span {
+  background-color: #6b8e23;
+  width: 0px;
+  height: 54px;
+  position: absolute;
+  top: 0;
+  margin-left: 50%;
+  border-radius: 20px;
+}
+.link:hover .span {
+  width: 204px;
+  transition: all 0.2s ease;
+}
+.link:hover a {
+  color: #fff;
+  position: absolute;
+  z-index: 9999;
+  border: 2px solid #6b8e23;
+}
